@@ -1,4 +1,5 @@
-#include <bits/stdc++.h>
+#include<iostream>
+#include<string.h>
 using namespace std;
 
 int main()
@@ -7,17 +8,13 @@ int main()
     char a;
     cin >> a;
 
-    if ((65 < (int)a) && ((int)a < 90))
+    if ((65 < a) && (a < 90))
     {
-        cout<< 1;
-        return 1;
+        cout<< "1";
     }
-    else if ((97 < (int)a) && ((int)a < 122))
+    else if ((97 < a) && (a < 122))
     {
-        cout<< 0;
-        return 0;
+        cout<< "0";
     }
-        cout<<-1;
-    
-    return 5;
-}
+    else {    cout<<"-1";}
+    }
